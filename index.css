@@ -1,0 +1,185 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: 0 0 6px #5682ff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5%;
+  background-color: #5682ff;
+  outline: 1px solid #5682ff;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #00000094 !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.view {
+  background: -webkit-linear-gradient(45deg, #68d0ff, #453cf5 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.top-nav-collapse {
+  background-color: #1c2331;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1c2331;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1c2331;
+}
+
+.phase-i {
+  color: #5682ff;
+  box-shadow: 0px 0px 4px 2px #5682ff;
+}
+
+.phase-i:hover {
+  box-shadow: 0px 0px 4px 6px #5682ff;
+  cursor: pointer;
+}
+
+.phase-ii {
+  color: #ffb456;
+  height: 195px;
+  box-shadow: 0px 0px 4px 2px #ffb456;
+}
+
+.phase-ii:hover {
+  box-shadow: 0px 0px 4px 6px #ffb456;
+  cursor: pointer;
+}
+
+.phase-iii {
+  color: #ff5656;
+  box-shadow: 0px 0px 4px 2px #ff5656;
+}
+
+.phase-iii:hover {
+  box-shadow: 0px 0px 4px 6px #ff5656;
+  cursor: pointer;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.footer {
+  color: #f0f8ff;
+  font-weight: 200;
+}
+
+.about-content {
+  padding-left: 7em;
+}
+
+.intro {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 600px;
+}
+
+.intro-text {
+  padding-right: 8em;
+}
+
+.material-icons {
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: auto;
+}
+
+.check {
+  color: #55b200;
+}
+
+.wip {
+  color: #ffbc00;
+}
+
+.card {
+  padding: 1em;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.portals {
+  margin-bottom: 3rem;
+}
+
+.portals .row {
+  text-align: -webkit-center;
+}
