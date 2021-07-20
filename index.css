@@ -164,6 +164,10 @@ a {
   color: #ffbc00;
 }
 
+.working {
+  color: #5682ff;
+}
+
 .card {
   padding: 1em;
   align-items: center;
