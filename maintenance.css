@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg);
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  text-align: center;
+  padding: 1em;
+}
+
+#phone {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50em;
+}
+
+#app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -51%);
+  height: 37em;
+  width: 25%;
+}
