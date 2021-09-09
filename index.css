@@ -187,3 +187,8 @@ a {
 .portals .row {
   text-align: -webkit-center;
 }
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
