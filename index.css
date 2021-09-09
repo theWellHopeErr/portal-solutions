@@ -171,6 +171,7 @@ a {
 .card {
   padding: 1em;
   align-items: center;
+  height: 12em;
 }
 
 .card-body {
